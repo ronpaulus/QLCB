@@ -20,6 +20,6 @@ void Officer::PrintInformation(ostream& output) {
 }
 
 string Officer::GetFirstName() {
-	return Helper::FirstName(this->fullName);
+	return Helper::GetFirstName(this->fullName);
 }
 

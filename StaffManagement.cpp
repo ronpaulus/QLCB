@@ -5,9 +5,12 @@ void StaffManagement::EnterOfficerList() {
 	int choice;
 	do {
 		system("cls");
+		cout << "===============================" << endl; 
 		cout << "1. Nhap giang vien" << endl;
 		cout << "2. Nhap nhan vien hanh chinh" << endl;
 		cout << "3. Thoat" << endl;
+		cout << "===============================" << endl;
+		cout << "Nhap lua chon: ";
 		cin >> choice;
 		switch (choice)
 		{

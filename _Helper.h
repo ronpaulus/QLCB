@@ -4,7 +4,6 @@ using namespace std;
 class Helper
 {
 public:
-	
-	static string FirstName(string str);
+	static string GetFirstName(string str);
 };
 

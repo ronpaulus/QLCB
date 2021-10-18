@@ -6,13 +6,15 @@ int main() {
 
 	do {
 		system("cls");
-		cout << "=========== MENU ===========" << endl;
+		cout << "============== MENU ==============" << endl;
 		cout << "1. Nhap danh sach" << endl;
 		cout << "2. In danh sach ra console" << endl;
 		cout << "3. In danh sach ra file" << endl;
 		cout << "4. Tinh tong luong" << endl;
 		cout << "5. Tim giang vien luong cao nhat" << endl;
 		cout << "0. Thoat" << endl;
+		cout << "=================================" << endl;
+		cout << "Nhap lua chon: ";
 		cin >> choice;
 
 		switch (choice)
